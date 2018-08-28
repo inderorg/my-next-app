@@ -59,5 +59,6 @@ export default ({ children, settings = {} }) => (
         height: 2px;
       }
     `}</style>
+    {StoryblokService.bridge()}
   </div>
 );
